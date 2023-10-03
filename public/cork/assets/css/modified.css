@@ -1,0 +1,16 @@
+.bg-orange{
+    background: #F15E22 !Important;
+}
+.bg-blue{
+    background: #33449C !important;
+}
+.letter-orange{
+    color: #F15E22 !Important;
+}
+.letter-blue{
+    color:  #33449C !important;
+}
+.letter-dark{
+    color: black !important;
+    font-weight: bold;
+}
