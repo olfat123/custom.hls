@@ -1,0 +1,19 @@
+{
+    "Academy" : {
+        "v3": "v3/userAcademy",
+        "v4": "v4/userAcademy",
+        "v5": "v5/userAcademy",
+        "v6": "v6/userAcademy",
+        "v7": "v7/userAcademy"
+       
+    },
+    "Word": {
+
+        "v7": "v7/word",
+        "v8": "v8/word",
+        "v9": "v9/word",
+        "v10": "v10/word",
+        "v11": "v11/word"
+
+    }
+}
