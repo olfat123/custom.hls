@@ -52,9 +52,13 @@
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                              aria-haspopup="true" aria-expanded="false" v-pre>
                                 <span class="caret">
-                                {{ Auth::user()->FIRST_NAME }}
-                                </span>
-                               
+                                    @if(Auth::user()->USERID_F)
+                                        @php
+                                        $parent = App\User::firstWhere('USERID',Auth::user()->USERID_F)
+                                        @endphp
+                                    @endif
+                                {{ isset($parent)?$parent->FIRST_NAME:Auth::user()->FIRST_NAME }}
+                                </span>                              
                             </a>
                         </li>
                   

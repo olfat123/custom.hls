@@ -32,5 +32,3 @@ Vue.component('academy-component', require('./components/glossary/AcademyCompone
 const app = new Vue({
     el: '#app',
 });
-
-

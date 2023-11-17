@@ -33,8 +33,9 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent; }
 
 ::selection {
-  color: #1b55e2;
-  background: transparent; }
+  /* color: unset; */
+  /* background: #8e44ad; */
+  }
 
 p {
   margin-top: 0;

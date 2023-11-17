@@ -15,6 +15,9 @@
                 </a>
             </div>
         </div>
+        <div class="alert alert-danger" role="alert" v-if="error">
+            You have exceeded your limit to add users
+        </div>
 
         <div class="row layout-spacing">
 
@@ -186,7 +189,9 @@
                                 </div>
                             </div>
                         </form>
-                                    
+                        <div class="alert alert-danger" role="alert" v-if="error">
+                            You have exceeded your limit to add users
+                        </div>       
                     </div>
                     <div class="modal-footer">
                         <!--button class="btn btn-secondary"  data-dismiss="modal"> 
@@ -419,6 +424,7 @@
                 </div>
             </div>
         </div>
+
     </div> 
 </template>
 <script>
@@ -444,7 +450,7 @@
                 //Variables de Entorno:
                 apiUrl   : process.env.MIX_API_URL,
                 app_key  : process.env.MIX_APP_KEY,
-
+                error:false,
             };
         },
         created:function(){
@@ -539,8 +545,10 @@
 
                             console.log("ANSWER-API" + response.data);
 
-                        }).catch(error => {        
-                                console.log(error.message);
+                        }).catch(error => {  
+                                this.cleanFormAcademyUsers();      
+                                console.log(error.message);                                                              
+                                this.error = true;
                             }
                         );
                     }
