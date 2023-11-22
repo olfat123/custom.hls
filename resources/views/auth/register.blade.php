@@ -215,7 +215,7 @@
                                 </div>
                             </div>
                         </form> -->
-                        <p class="terms-conditions">© 2020 All Rights Reserved.</p>
+                        <p class="terms-conditions">© 2023 All Rights Reserved.</p>
 
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 <div class="footer-section f-section-1 ">
-    <p class="text-center">Copyright © 2020 <a target="_blank" href="">Glossary</a>, HLS All Right Reserved.</p>
+    <p class="text-center">Copyright © 2023 <a target="_blank" href="">Glossary</a>, HLS All Right Reserved.</p>
 </div>
 
 

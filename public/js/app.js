@@ -2362,7 +2362,7 @@ var _apis_Apis_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webp
       ALL_USERS_ACADEMY: [],
       Message: false,
       //Variables de Entorno:
-      apiUrl: "http://127.0.0.1:8000/",
+      apiUrl: "https://admin.hlsglossary.com/apiGateway/public/",
       app_key: "Vkf8QZIKsdEKt8xZjub78eTca39LFES7",
       error: false
     };
@@ -2838,7 +2838,7 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
       FAVORITEID: "",
       TYPEID: 1,
       TIPSTATUSID: 1
-    }, "STATUSID", 1), "WORD", ""), "apiUrl", "http://127.0.0.1:8000/"), "app_key", "Vkf8QZIKsdEKt8xZjub78eTca39LFES7");
+    }, "STATUSID", 1), "WORD", ""), "apiUrl", "https://admin.hlsglossary.com/apiGateway/public/"), "app_key", "Vkf8QZIKsdEKt8xZjub78eTca39LFES7");
   },
   created: function created() {},
   mounted: function mounted() {

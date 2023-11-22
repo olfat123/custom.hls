@@ -107,7 +107,7 @@
 
                             </div>
                         </form>                        
-                        <p class="terms-conditions">© 2020 HLS All Right Reserved. 
+                        <p class="terms-conditions">© 2023 HLS All Right Reserved. 
                             <!--a href="index.html">CORK</a> is a product of Designreset. <a href="javascript:void(0);">Cookie Preferences</a>,
                             <a href="javascript:void(0);">Privacy</a>, and <a href="javascript:void(0);">Terms</a-->
                         </p>
